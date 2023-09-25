@@ -1,8 +1,7 @@
-async function *streamjsonparser(readableStream) {
+async function *streamjsonparser(readableStream,searchValue,replaceValue) {
     for await (const line of readLines(readableStream.getReader())) {
-        const trimmedLine = line.trim().replace("data: ", '');
+        const trimmedLine = line.trim().replace(searchValue, replaceValue);
         if (trimmedLine !== '{' && trimmedLine !== '}' && trimmedLine!=="") {
-            console.log(JSON.parse(trimmedLine))
             yield JSON.parse(trimmedLine);
         }
     }
