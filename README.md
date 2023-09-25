@@ -35,14 +35,9 @@ import streamJSONParser from 'stream-json-parser';
 const response = await fetch('https://example.com/streaming-data');
 const stream = response.body;
 
-// Create a JSON parser for the stream
-const parser = streamJSONParser(stream);
-
-// Iterate over parsed JSON objects
-for await (const jsonObject of parser) {
-  // Handle each JSON object as it arrives
-  console.log(jsonObject);
-}
+for await (const chunk of streamjsonparser(response.body)) {
+                console.log(chunk)
+            }
 ```
 
 ### How It Works
