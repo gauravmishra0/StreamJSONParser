@@ -46,7 +46,7 @@ The `streamJSONParser` function accepts a readable stream as its input and retur
 
 ## Contributing
 
-If you'd like to contribute to StreamJSONParser, please open an issue or submit a pull request on [GitHub](https://github.com/your/repo).
+If you'd like to contribute to StreamJSONParser, please open an issue or submit a pull request on [GitHub](https://github.com/gauravmishra0/StreamJSONParser).
 
 ## License
 
@@ -58,12 +58,6 @@ StreamJSONParser is inspired by the need for efficient parsing of streaming JSON
 
 ## About
 
-StreamJSONParser is maintained by [Your Name]. You can contact me at [your.email@example.com].
+StreamJSONParser is maintained by Gaurav mishra. You can contact me at garvmishra9@gmail.com.
 
-For more information, visit the [GitHub repository](https://github.com/your/repo).
-
----
-
-**Note:** Replace `[your/repo]`, `[Your Name]`, `[your.email@example.com]`, and `[MIT License]` with your actual repository URL, name, contact information, and license information.
-
-This README is a template, and you should customize it according to your project's specific details.
+For more information, visit the [GitHub repository](https://github.com/gauravmishra0/StreamJSONParser).
