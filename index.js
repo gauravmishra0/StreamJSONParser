@@ -37,4 +37,4 @@ function readChunks(reader) {
     };
 }
 
-export default streamjsonparser
+export default {streamjsonparser}
