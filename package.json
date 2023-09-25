@@ -1,6 +1,6 @@
 {
   "name": "jsonsurge",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "commonjs",
   "description": "A JSON parsing utility for streaming data",
   "main": "index.js",
