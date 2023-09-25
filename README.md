@@ -44,12 +44,6 @@ for await (const chunk of streamjsonparser(response.body)) {
 
 The `streamJSONParser` function accepts a readable stream as its input and returns an asynchronous generator that yields parsed JSON objects as they are received from the stream.
 
-- The `readChunks` function reads the stream in chunks, asynchronously yielding each chunk.
-
-- The `readLines` function processes the chunks to split them into lines of text. It handles cases where a single chunk might contain multiple lines.
-
-- The main `streamJSONParser` function trims each line of text, removes any "data: " prefix, and parses the resulting JSON. It then yields the parsed JSON objects.
-
 ## Contributing
 
 If you'd like to contribute to StreamJSONParser, please open an issue or submit a pull request on [GitHub](https://github.com/your/repo).
